@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\AgentNavigation.cs" />
+    <Compile Include="Assets\Scripts\CameraController.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/dd/Documents/unity_games/CS428-523/CS428-523-B1/CS428-523-B1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
