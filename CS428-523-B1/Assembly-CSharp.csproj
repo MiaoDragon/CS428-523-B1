@@ -64,6 +64,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\AgentNavigation.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <None Include="Assets\furniture\3d\Materials\Color Selection.shader" />
+    <None Include="Assets\Models\89020804314211ab8078b6ca7f533b15\archibase.net.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/dd/Documents/unity_games/CS428-523/CS428-523-B1/CS428-523-B1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
