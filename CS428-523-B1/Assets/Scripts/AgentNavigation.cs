@@ -73,22 +73,6 @@ public class AgentNavigation : MonoBehaviour
             }
         }
 
-     /*   if (GetComponent<NavMeshAgent>().gameObject.tag == "Capsule")
-        {
-            GetComponent<NavMeshAgent>().isKinematic = !GetComponent<NavMeshAgent>().isKinematic;
-        }*/
-        
-          
+
     }
-   /* void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag == "Capsule")
-        {
-            agent.stoppingDistance=0;
-
-        }
-    }*/
-
-
-
 }
