@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 520513164301282757}
   - component: {fileID: 520513164301282758}
   - component: {fileID: 520513164301282759}
+  - component: {fileID: 2222465348860081239}
   m_Layer: 0
   m_Name: Cylinder (1)
   m_TagString: Untagged
@@ -92,6 +93,22 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!208 &2222465348860081239
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520513164301282761}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &520513164973972031
 GameObject:
   m_ObjectHideFlags: 0
@@ -104,6 +121,7 @@ GameObject:
   - component: {fileID: 520513164973972027}
   - component: {fileID: 520513164973972028}
   - component: {fileID: 520513164973972029}
+  - component: {fileID: 749965142998968946}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -184,6 +202,22 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!208 &749965142998968946
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520513164973972031}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &520513165891117009
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,6 +228,7 @@ GameObject:
   m_Component:
   - component: {fileID: 520513165891117008}
   - component: {fileID: 681764835754522816}
+  - component: {fileID: 122655813704309059}
   m_Layer: 0
   m_Name: Table1
   m_TagString: Untagged
@@ -233,3 +268,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &122655813704309059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520513165891117009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccff44733ca4fe3488b54a8dfd866e14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

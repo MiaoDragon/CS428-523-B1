@@ -12,6 +12,8 @@ public class AgentNavigation : MonoBehaviour
                      // it gets deactivated if the mouse clicks again.
     Color deactivatedColor;
     Color activatedColor;
+
+    public float brakingRadius;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +35,7 @@ public class AgentNavigation : MonoBehaviour
     {
         // If we capture a mouse click, then we check if the goal is the same.
         // If the goal has changed, we will set the goal to the new location.
+        
         if (activated && Input.GetMouseButtonDown(1))
         {
             RaycastHit hit;
@@ -46,6 +49,7 @@ public class AgentNavigation : MonoBehaviour
                     // the goal position has changed, reset
                     //goal.position = hitPosition;
                     agent.destination = hitPosition;
+                    agent.stoppingDistance = brakingRadius;
                 }
             }
         }
@@ -72,7 +76,5 @@ public class AgentNavigation : MonoBehaviour
                 }
             }
         }
-
-
     }
 }

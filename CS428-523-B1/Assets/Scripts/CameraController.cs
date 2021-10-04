@@ -19,6 +19,7 @@ public class CameraController : MonoBehaviour
         // WSAD to move the position of the camera
         // space to move the camera higher
         // shift to move the camera lower
+   
         if (Input.GetKey("w"))
         {
             Vector3 current_pos = this.transform.position;
